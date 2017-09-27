@@ -3,7 +3,7 @@
 
 ### Source ###
 Source is stored on Github
-https://github.com/doctorcareanywhere/dca.net
+https://github.com/doctorcareanywhere/dca.net/
 
 
 ### Build ###
@@ -37,6 +37,7 @@ To build web artifacts:
 5. Install node dependencies
    - Navigate to DCA.Web
    - Delete node_modules folder
+   - Execute the following commands:
    ```
    npm install
    npm install gulp -g
@@ -45,16 +46,22 @@ To build web artifacts:
 
 6. Compile CSS
    - Make sure you are in DCA.Web 
-   - Run the following commands
+   - Execute the following commands
      ```
      gulp iconfont
      gulp sass
      ```
 
 
+### Notes ###
+   - We are using Visual Studio task runner to run gulp tasks. Tasks iconfont and sass will run automatically on every build. You can manually start tasks from Task Runner Explorer.
+   - Make sure you update position of $(PATH) at the top of locations of external tools in Visual Studio:
+     - Go to Tools → Options → Projects and Solutions → External Web Tools
+     - Reorder so that $(PATH) is above $(DevEnvDir)\Extensions\Microsoft\Web Tools\External
+
 
 ### Continous Delivery ###
-The project is build and deployed using TeamCity: https://tc.doctorcareanywhere.com/teamcity
+The project is build and deployed using TeamCity: https://tc.doctorcareanywhere.com/teamcity/
 
 
 
@@ -85,5 +92,5 @@ The project is build and deployed using TeamCity: https://tc.doctorcareanywhere.
 ### Monitoring and Error Logging ###
 1. Raygun: https://raygun.io
 2. Kibana: 
-   - Dev/Test/UAT: https://kibdev.doctorcareanywhere.com/app/kibana
-   - Production: https://kib.doctorcareanywhere.com/app/kibana
+   - Dev/Test/UAT: https://kibdev.doctorcareanywhere.com/app/kibana/
+   - Production: https://kib.doctorcareanywhere.com/app/kibana/
