@@ -1,7 +1,7 @@
-#Read Me#
+###Read Me###
 
 
-### Source ###
+## Source ##
 Source is stored on Github
 https://github.com/doctorcareanywhere/dca.net
 
@@ -67,12 +67,12 @@ The project is build and deployed using TeamCity: https://tc.doctorcareanywhere.
   - Web API: https://testapi.doctorcareanywhere.com/
   - OAuth: https://testauth.doctorcareanywhere.com/
 
-**UAT:*
+**UAT:**
   - Web: https://uatweb.doctorcareanywhere.com/
   - Web API: https://uatapi.doctorcareanywhere.com/
   - OAuth: https://uatauth.doctorcareanywhere.com/
 
-**QA:*
+**Live:**
   - Web: https://member.doctorcareanywhere.com/
   - Web API: https://api.doctorcareanywhere.com/
   - OAuth: https://auth.doctorcareanywhere.com/
@@ -80,7 +80,7 @@ The project is build and deployed using TeamCity: https://tc.doctorcareanywhere.
 
 
 ### Monitoring and Error Logging ###
-    - Raygun: https://raygun.io
-    - Kibana: 
-      - Dev/Test/UAT: https://kibdev.doctorcareanywhere.com/app/kibana
-      - Production: https://kib.doctorcareanywhere.com/app/kibana
+1. Raygun: https://raygun.io
+2. Kibana: 
+   - Dev/Test/UAT: https://kibdev.doctorcareanywhere.com/app/kibana
+   - Production: https://kib.doctorcareanywhere.com/app/kibana
