@@ -1,7 +1,7 @@
-### Read Me ###
+## Read Me ##
 
 
-## Source ##
+### Source ###
 Source is stored on Github
 https://github.com/doctorcareanywhere/dca.net
 
@@ -52,8 +52,10 @@ To build web artifacts:
      ```
 
 
+
 ### Continous Delivery ###
 The project is build and deployed using TeamCity: https://tc.doctorcareanywhere.com/teamcity
+
 
 
 ### Environments ###
@@ -76,6 +78,7 @@ The project is build and deployed using TeamCity: https://tc.doctorcareanywhere.
   - Web: https://member.doctorcareanywhere.com/
   - Web API: https://api.doctorcareanywhere.com/
   - OAuth: https://auth.doctorcareanywhere.com/
+
 
 
 
